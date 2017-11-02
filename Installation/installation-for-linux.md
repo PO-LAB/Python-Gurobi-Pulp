@@ -26,10 +26,10 @@ $ cp -r gurobi751 /opt/
 
 - 去[官網](https://user.gurobi.com/download/licenses/free-academic)要求Licenses，應該會得到一串prompt `grbgetkey **********`
 - 直接在你的終端機上下指令
-- ![](./Installation/picture/001.png)
+- ![](/Installation/picture/001.png)
 
 - 那麼就會在你的指定路徑上生成特定檔案
-- ![](./Installation/picture/002.png)
+- ![](/Installation/picture/002.png)
 
 ## 3. 設定全域變數
 
@@ -44,12 +44,12 @@ export GRB_LICENSE_FILE="/home/kuoteng/gurobi.lic"
 
 - 其中GUROBI_HOME對應到你剛剛將解壓縮後的檔案放置於哪裡，而GRB_LICENSE_FILE則是對應到LICENSES FILE的位置
 
-- ![](./Installation/picture/003.png)
+- ![](/Installation/picture/003.png)
 
 ## 4. Try yourself
 
 - 自己嘗試看看吧
-- ![](./Installation/picture/004.png)
+- ![](/Installation/picture/004.png)
 
 ## Author
 
