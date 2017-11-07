@@ -1,6 +1,9 @@
 # Installation for ubuntu
-在此使用ubuntu 17.04做為示範環境，不過因為ubuntu 17.10才會預裝gurobi7.5.1需要的python3.6.3，所以在不同版本的ubuntu上應該會有些許差別。
+在此使用ubuntu 17.04和ubuntu 17.10做為示範環境，假如你有python3.6，應該都會成功
+
+不過因為ubuntu 17.10才會預裝gurobi7.5.1需要的python3.6.3，所以還是建議使用17.10來建置環境
 另外因為ubuntu可以裝起來，所以debian或其他相關Linux發行版應該也可以。
+
 
 ## Prerequistie
 - Python 3.6 or Python 2.7 (or upper version)
