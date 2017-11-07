@@ -13,7 +13,7 @@
 - 首先你會需要解壓縮
 
 ```sh
-$ tar zxvf gurobi7.5.1_linux64.tar.gz`
+$ tar zxvf gurobi7.5.1_linux64.tar.gz
 ```
 
 - 將解壓縮後的檔案，搬遷到`/opt/`底下
@@ -22,8 +22,22 @@ $ tar zxvf gurobi7.5.1_linux64.tar.gz`
 $ cp -r gurobi751 /opt/
 ```
 
-## 2. Request Academic License
+## 2. 設定全域變數
+ 
+- 將以下複製到`.bashrc`上
 
+```sh
+export GUROBI_HOME="/opt/gurobi751/linux64"
+export PATH="${PATH}:${GUROBI_HOME}/bin"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+```
+
+- 其中GUROBI_HOME對應到你剛剛將解壓縮後的檔案放置於哪裡
+
+- ![](/Installation/picture/003.png)
+
+## 3. Request Academic License
+ 
 - 去[官網](https://user.gurobi.com/download/licenses/free-academic)要求Licenses，應該會得到一串prompt `grbgetkey **********`
 - 直接在你的終端機上下指令
 - ![](/Installation/picture/001.png)
@@ -31,22 +45,32 @@ $ cp -r gurobi751 /opt/
 - 那麼就會在你的指定路徑上生成特定檔案
 - ![](/Installation/picture/002.png)
 
-## 3. 設定全域變數
+## 4. 再次設定全域變數
 
 - 將以下複製到`.bashrc`上
 
 ```sh
-export GUROBI_HOME="/opt/gurobi751/linux64"
-export PATH="${PATH}:${GUROBI_HOME}/bin"
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
 export GRB_LICENSE_FILE="/home/kuoteng/gurobi.lic"
 ```
 
-- 其中GUROBI_HOME對應到你剛剛將解壓縮後的檔案放置於哪裡，而GRB_LICENSE_FILE則是對應到LICENSES FILE的位置
+- GRB_LICENSE_FILE則是對應到LICENSES FILE的位置
 
-- ![](/Installation/picture/003.png)
+## 5. 設定python interface
 
-## 4. Try yourself
+- 移動到你剛剛解壓縮後檔案放置位置
+
+```sh
+$ cd /opt/gurobi751/linux64
+```
+
+- 輸入以下指令（你可以打開virtualenv來執行）
+```sh
+$ sudo python3 setup.py install
+```
+
+
+
+## 5. Try yourself
 
 - 自己嘗試看看吧
 - ![](/Installation/picture/004.png)
