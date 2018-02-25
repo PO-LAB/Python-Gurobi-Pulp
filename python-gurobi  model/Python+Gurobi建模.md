@@ -1,5 +1,10 @@
 # Python+Gurobi建模
--------------------
+
+*POLab*
+<br>
+*2017/10/08*
+<br>
+[【回到首頁】](https://github.com/PO-LAB/Python-Gurobi)
 
 ## (一)最佳化流程
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/%E6%9C%80%E4%BD%B3%E5%8C%96%E6%B5%81%E7%A8%8B.png" width="650">
@@ -7,7 +12,7 @@
 ## (二)問題產生
 ●有x、y、z三個活動想在同一天舉辦<br>
 ●場地總時間只有四個小時可使用<br>
-●活動3的價值為活動x及y的兩倍<br>
+●活動z的價值為活動x及y的兩倍<br>
 ●活動x與活動y至少要選一個舉辦<br>
 ●活動x需花費1小時<br>
 ●活動y需花費2小時<br>
@@ -54,7 +59,7 @@ from gurobipy import* #導入Gurobi函式庫
 
 
 ```python
-m.update() #更新此model
+    m.update() #更新此model
 ```
 
 ## Add objective and constraints
