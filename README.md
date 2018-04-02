@@ -1,5 +1,5 @@
 # Python+Gurobi 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br>
 ### **內容概述**
 
 此網頁為成功大學資訊系[作業研究課程](http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F7&cono=F732800)Python+Gurobi的應用教學
@@ -36,7 +36,4 @@
 |2017-10-30|[Dual example](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Dual%20example.md)|
 |2017-10-30|[Optimal Employee Work Schedule](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Optimal%20Employee%20Work%20Schedule.md)|
 |2017-11-04|[Netflow problem](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Netflow%20problem.md)|
-
-
-
 
