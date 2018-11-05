@@ -4,11 +4,13 @@
 
 此網頁為成功大學資訊系[作業研究課程](http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F7&cono=F732800)
 
+授課教師為[李家岩](http://polab.imis.ncku.edu.tw/Bio.html)老師
+
 Python+Gurobi教學
+
 Python+Pulp教學
 (https://github.com/jasonyoyo/python-pulp)
 
-授課教師為[李家岩](http://polab.imis.ncku.edu.tw/Bio.html)老師
 
 ### **助教**
 
