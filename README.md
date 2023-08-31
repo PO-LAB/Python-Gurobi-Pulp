@@ -13,6 +13,7 @@
 |----|----|----|
 |2017|吳承璊|P96064079@mail.ncku.edu.tw|
 |2018|何杰穎<br>林峰吉|P96074040@mail.ncku.edu.tw<br>P96071123@mail.ncku.edu.tw
+|2023|盧宣文<br>陳彥彣|P98091014@gs.ncku.edu.tw<br>d12725002@ntu.edu.tw
 
 ----------------------------------------
 ### :triangular_flag_on_post: Python+Pulp
