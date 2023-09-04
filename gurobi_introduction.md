@@ -1,10 +1,12 @@
-# Gurobi 簡介
+# Gurobi Introduction
 
-[Gurobi](http://www.gurobi.com/index)，又稱Gurobi Optimizer，是一個用來求解數學規劃的優化引擎，為目前市面上相當知名的數學規劃優化器，主要由[Zonghao **Gu**、Edward  **Ro**thberg、Robert **Bi**xby](http://www.gurobi.com/company/management-team)開發，Gurobi即由三位開發者的名子命名而來。
-###### ※本文內容的相關連結會以:link:或藍色字體表示，可自行點擊查看
+[Gurobi](https://www.gurobi.com/), also known as Gurobi Optimizer, is an optimization engine used for solving mathematical programming problems. It is one of the well-known mathematical programming optimizers in the market. It was primarily developed by [Zonghao **Gu**、Edward  **Ro**thberg、Robert **Bi**xby](https://www.gurobi.com/company/our-team/), and the name "Gurobi" is derived from the first two letters of each developer's last name.
+
+###### ※The relevant links in this document will be indicated by:link:or blue text, which you can click on to view them at your convenience.
+
 -------
-### :black_nib: 支持的數學規劃類型 [:link:](http://www.gurobi.com/products/features-benefits)
-目前Gurobi已經更新至7.5.2版本，並且能求解以下類型的數學規劃問題：
+### :black_nib: Supported Mathematical Programming Types [:link:](http://www.gurobi.com/products/features-benefits)
+Gurobi can solve the following types of mathematical programming problems:
 <br>
 
 - Linear Programming (LP)
@@ -14,22 +16,21 @@
 - Quadratically Constrained Programming (QCP)
 - Mixed-Integer Quadratically Constrained Programming (MIQCP)
 
-:zap: 因此Gurobi是能夠求解非線性問題，但僅限於二次規劃問題。
+:zap: Gurobi can handle non-linear problems as well, but only limited to quadratic programming problems.
 
 ------------
-### :black_nib: 支持的程式語言(programming language)及建模語言(modeling language) [:link:](http://www.gurobi.com/products/features-benefits)
-Gurobi支援許多不同程式語言及建模語言的開發，如以下所示：
+### :black_nib: Supported Programming Languages and Modeling Language [:link:](http://www.gurobi.com/products/features-benefits)
+Gurobi supports various programming languages and modeling languages for development, including:
 
-:arrow_down_small: 程式語言
-- 物件導向(Object-oriented interfaces)：C++, Java, .NET, and Python
-- 矩陣導向(Matrix-oriented interfaces)：C, MATLAB, and R
+:arrow_down_small: Programming Languages
+- Object-oriented interfaces：C++, Java, .NET, and Python
+- Matrix-oriented interfaces：C, MATLAB, and R
 
-:arrow_down_small: 建模語言
+:arrow_down_small: Modeling Languages
 - AMPL, GAMS, AIMMS, and MPL
 
-:zap: 本repository主要著重於python-gurobi的應用
-
+:zap: This repository primarily focuses on the application of Python with Gurobi.
 
 ----------
 ### :black_nib: License
-要使用Gurobi，必須先取得[Gurobi License](http://www.gurobi.com/downloads/licenses/license-center)才能進行使用，Gurobi License主要分為兩個類型，[商業使用(Commercial Licenses)](http://www.gurobi.com/products/licensing-pricing/licensing-overview)及[學術使用(Academic Licenses)](http://www.gurobi.com/academia/academia-center)，商業使用是必須付費的，不過Gurobi有提供測試License，讓公司進行Gurobi試用，而學術使用是完全免費的，並且在Gurobi使用上沒有任何限制，不管是在建模的大小或功能的使用等，但學術License僅有一年的有效期，一旦到期了，就必須重新申請新的License才可再次使用，不過以整體來說Gurobi算是非常好的數學規劃求解器，對於學術上的使用是非常大方的。
+To use Gurobi, you need to obtain a [Gurobi License](http://www.gurobi.com/downloads/licenses/license-center). Gurobi licenses come in two main types: [Commercial Licenses](https://portal.gurobi.com/iam/licenses/request?type=commercial) and [Academic Licenses](https://portal.gurobi.com/iam/licenses/request) Commercial licenses require payment, but Gurobi offers a trial license for companies to evaluate its use. Academic licenses are completely free and have no restrictions on the size of models or functionality. However, academic licenses are valid for one year, and you must reapply for a new license once it expires. Overall, Gurobi is a generous mathematical programming solver, especially for academic use.
