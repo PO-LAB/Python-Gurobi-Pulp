@@ -16,7 +16,7 @@
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%20%E6%9E%B6%E6%A7%8B.png" width="650">
 
 ### ● Commonly used for-loops and if-conditionals when modeling.
- In Python, after declaring a for-loop or an if-condition, remember to use a **冒號':'** to end the declaration. Then, on the next line, write what you want to do within the for-loop or if-condition. It's essential to note that Python uses **縮排** to distinguish between different code blocks. Therefore, before starting the next line, remember to press the **tab鍵** to create the indentation. This way, the program knows that the code is part of the for-loop or if-condition.
+ In Python, after declaring a for-loop or an if-condition, remember to use a **":"** to end the declaration. Then, on the next line, write what you want to do within the for-loop or if-condition. It's essential to note that Python uses **indent** to distinguish between different code blocks. Therefore, before starting the next line, remember to press the **tab** to create the indentation. This way, the program knows that the code is part of the for-loop or if-condition.
 
 <br>-**for-loop**
 ```python
@@ -65,8 +65,8 @@ obj:36
 ## (2) Common Functions and Properties
 
 ### 1.Three Major Functions
-When creating a mathematical programming model, we need to incorporate our decision variables, objective function, and constraints. The following is a detailed explanation of the three major functions commonly used in setting up these variables and expressions.
-<br>P.S. There are different ways to set the objective function and constraints in Gurobi. Here, we have introduced the applications of these three functions only. If you wish to gain a deeper understanding, you can visit the [Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html) section within the Gurobi website for further information. For details on other functions, you can click [here](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html).
+When creating a mathematical programming model, we need to incorporate our decision variables, objective function, and constraints. The following is a detailed explanation of the three major functions commonly used in setting up these variables and expressions.<br>
+P.S. There are different ways to set the objective function and constraints in Gurobi. Here, we have introduced the applications of these three functions only. If you wish to gain a deeper understanding, you can visit the [Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html) section within the Gurobi website for further information. For details on other functions, you can click [here](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html).
 
 ### ● Decision Variable Function
 
