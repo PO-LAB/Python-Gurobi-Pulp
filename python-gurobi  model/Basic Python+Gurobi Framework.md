@@ -1,4 +1,4 @@
-# Python+Gurobi基本架構
+# Basic Python+Pulp Framework
 
 *POLab*
 <br>
