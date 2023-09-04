@@ -22,7 +22,7 @@ The instructor for this course is Professor [Chia-Yen Lee](http://polab.im.ntu.e
 |2018-10-03|[Pulp Introduction and Download](https://github.com/jasonyoyo/python-pulp/blob/master/Pulp%20%E7%B0%A1%E4%BB%8B%E8%88%87%E4%B8%8B%E8%BC%89.md)|
 |2018-11-03|[Basic Python+Pulp Framework](https://github.com/jasonyoyo/python-pulp/blob/master/Python%2BPulp%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%A7%8B.md)|
 |2018-10-03|[Modeling with Python+Pulp](https://github.com/jasonyoyo/python-pulp/blob/master/Python%2BPulp%E5%BB%BA%E6%A8%A1.md)|
-|2018-11-03|[Special Data Structures of Python+Pulp](https://github.com/jasonyoyo/python-pulp/blob/master/Python%2BPulp%E7%89%B9%E6%AE%8A%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B.ipynb)|
+|2018-11-03|[Python+Pulp Special Data Structures](https://github.com/jasonyoyo/python-pulp/blob/master/Python%2BPulp%E7%89%B9%E6%AE%8A%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B.ipynb)|
 
 ### :triangular_flag_on_post: Python+Pulp Examples
 |Update Time|Article|
@@ -45,7 +45,7 @@ The instructor for this course is Professor [Chia-Yen Lee](http://polab.im.ntu.e
 |-----|-----|
 |2017-09-27|[Python+Gurobi](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Python+Gurobi%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%A7%8B.md)|
 |2017-10-08|[Modeling with Python+Gurobi](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Python+Gurobi%E5%BB%BA%E6%A8%A1.md)|
-|2017-10-30|[Special Data Structures of Python+Gurobi](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Python%2BGurobi%E7%89%B9%E6%AE%8A%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B.ipynb)|
+|2017-10-30|[Python+Pulp Special Data Structures](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Python%2BGurobi%E7%89%B9%E6%AE%8A%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B.ipynb)|
 
 ### :triangular_flag_on_post: Python+Gurobi Examples
 |Update Time|Article|
