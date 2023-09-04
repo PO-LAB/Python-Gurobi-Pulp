@@ -1,10 +1,10 @@
 # Python+Gurobi / Python+Pulp
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br>
-### **內容概述**
+### **Content Overview**
 
-此網頁為成功大學資訊系[作業研究課程](http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F7&cono=F732800)
+This webpage is for the [Operations Research](https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=725%20U3690&class=&dpt_code=7050&ser_no=44122&semester=112-1&lang=CH) course in the Department of Information Management at National Taiwan University.
 
-授課教師為[李家岩](http://polab.imis.ncku.edu.tw/Bio.html)老師
+The instructor for this course is Professor [Chia-Yen Lee](http://polab.im.ntu.edu.tw/).
 
 
 ### **助教**
