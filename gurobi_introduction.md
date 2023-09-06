@@ -1,6 +1,6 @@
 # Gurobi Introduction
 
-[Gurobi](https://www.gurobi.com/), also known as Gurobi Optimizer, is an optimization engine used for solving mathematical programming problems. It is one of the well-known mathematical programming optimizers in the market. It was primarily developed by [Zonghao **Gu**、Edward  **Ro**thberg、Robert **Bi**xby](https://www.gurobi.com/company/our-team/), and the name "Gurobi" is derived from the first two letters of each developer's last name.
+[Gurobi](https://www.gurobi.com/), also known as Gurobi Optimizer, is an optimization engine used for solving mathematical programming problems. It is one of the well-known mathematical programming optimizers in the market. It was primarily developed by [Zonghao **Gu**, Edward  **Ro**thberg, Robert **Bi**xby](https://www.gurobi.com/company/our-team/), and the name "Gurobi" is derived from the first two letters of each developer's last name.
 
 ###### ※The relevant links in this document will be indicated by:link:or blue text, which you can click on to view them at your convenience.
 
