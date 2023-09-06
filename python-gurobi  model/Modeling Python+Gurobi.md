@@ -7,7 +7,7 @@
 [【Return to Homepage】](https://github.com/PO-LAB/Python-Gurobi)
 
 ## (1) Optimization Process
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/%E6%9C%80%E4%BD%B3%E5%8C%96%E6%B5%81%E7%A8%8B.png" width="650">
+![Optimization Process](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/0b82f81c-2469-4f38-86f0-1e187c97063d)
 
 ## (2) Probelm Definition
 ● There are three activities, x, y, and z, that need to be held on the same day.<br>
@@ -20,7 +20,6 @@
 ● Which combination of activities can maximize the value?<br>
 
 ## (3) Mathematical Programming
-
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/%E5%BB%BA%E6%A8%A1%E7%AF%84%E4%BE%8B.png" width="850">
 
 
