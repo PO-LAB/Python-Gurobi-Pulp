@@ -1,4 +1,4 @@
-# Basic Python+Pulp Framework
+# Basic Python+Gurobi Framework
 
 *POLab*
 <br>
