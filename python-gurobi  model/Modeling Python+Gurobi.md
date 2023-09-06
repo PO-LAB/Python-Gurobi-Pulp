@@ -1,56 +1,58 @@
-# Python+Gurobi建模
+# Modeling Python+Gurobi
 
 *POLab*
 <br>
 *2017/10/08*
 <br>
-[【回到首頁】](https://github.com/PO-LAB/Python-Gurobi)
+[【Return to Homepage】](https://github.com/PO-LAB/Python-Gurobi)
 
-## (一)最佳化流程
+## (1) Optimization Process
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/%E6%9C%80%E4%BD%B3%E5%8C%96%E6%B5%81%E7%A8%8B.png" width="650">
 
-## (二)問題產生
-● 有x、y、z三個活動想在同一天舉辦<br>
-● 場地總時間只有四個小時可使用<br>
-● 活動z的價值為活動x及y的兩倍<br>
-● 活動x與活動y至少要選一個舉辦<br>
-● 活動x需花費1小時<br>
-● 活動y需花費2小時<br>
-● 活動z需花費3小時<br>
-● 舉辦哪幾個活動可以使價值最大化?<br>
+## (2) Probelm Definition
+● There are three activities, X, Y, and Z, that need to be held on the same day.<br>
+● The total available time for the venue is only four hours.<br>
+● Activity Z has a value that is twice that of activities X and Y.<br>
+● At least one of activities X or Y must be selected.<br>
+● Activity X requires 1 hour.<br>
+● Activity Y requires 2 hours.<br>
+● Activity Z requires 3 hours.<br>
+● Which combination of activities can maximize the value?<br>
 
-## (三)數學模式
+## (3) Mathematical Programming
 
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/%E5%BB%BA%E6%A8%A1%E7%AF%84%E4%BE%8B.png" width="850">
 
 
-## (四)Python+Gurobi建模求解
-## 1.建模流程
+## (4) Python+Gurobi Optimization
+## 1. Modeling Process
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1%E6%B5%81%E7%A8%8B.png" width="750">
 
-## 2.Python+Gurobi建模
-
+## 2. Modeling Python+Gurobi
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/example.png" width="450">
 
 ## Import gurobipy
 
 
 ```python
-from gurobipy import* #導入Gurobi函式庫
+# Import Gurobi package
+from gurobipy import *
 ```
 
 ## Model
 
 
 ```python
-m=Model('mip1') # 建立一個新的model，並傳至m
+# Build a new model and assign to 'm'
+m = Model('mip1')
 ```
 
 ## Add decision variable
 
 
 ```python
-x = m.addVar(vtype=GRB.BINARY, name="x")  # m.addVar()加入變數
+# Add variables using m.addVar()
+x = m.addVar(vtype=GRB.BINARY, name="x")
 y = m.addVar(vtype=GRB.BINARY, name="y")
 z = m.addVar(vtype=GRB.BINARY, name="z")
 ```
@@ -59,20 +61,20 @@ z = m.addVar(vtype=GRB.BINARY, name="z")
 
 
 ```python
-m.update() #更新此model
+# Update model
+m.update()
 ```
 
 ## Add objective and constraints
 
 
 ```python
-# m.setObjective()設置目標函數
+# Set objective using m.setObjective()
 m.setObjective(x + y + 2 * z, GRB.MAXIMIZE) 
 
-# m.addConstr()加入限制式
+# Add constraints using m.addConstr()
 # Add constraint: x + 2 y + 3 z <= 4
 m.addConstr(x + 2 * y + 3 * z <= 4, "c0") 
-
 # Add constraint: x + y >= 1
 m.addConstr(x + y >= 1, "c1")
 ```
@@ -85,14 +87,15 @@ m.addConstr(x + y >= 1, "c1")
 
 
 ## Result
-- 如果不想要顯示求解的過程，可在optimize()之前加入此程式碼：**m.setParam('OutputFlag',0)**
+- If you do not want to display the solving process, you can add this code before optimize():
+**m.setParam('OutputFlag', 0)**
 
 ```python
-m.optimize() # m.optimize()求解
-# 透過屬性varName、x顯示決策變數名字及值
+m.optimize() # solve
+# Display name and value of variables using attributes .varName and .x
 for v in m.getVars():
     print('%s %g' % (v.varName, v.x))
-# 透過屬性objVal顯示最佳解
+# Display optimal solution using attribute .objVal
 print('Obj: %g' % m.objVal)
 ```
 ```
