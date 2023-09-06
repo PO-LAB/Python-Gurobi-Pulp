@@ -51,7 +51,7 @@ At this time, we can use format specifiers to print various values and names for
 |%g|Determines whether to use %f or %e based on value size|
 #### e.g.
 ```python
-print('She is %s. She weights %gkg and is %dcm tall.'%('Rima',50.4,166))
+print('She is %s. She weights %gkg and is %dcm tall.'%('Rima', 50.4, 166))
 ```
     She is Rima. She weights 50.4kg and is 166cm tall.
 
@@ -64,7 +64,7 @@ obj:36
 
 ## (2) Common Functions and Properties
 
-### 1.Three Major Functions
+### 1. Three Major Functions
 When creating a mathematical programming model, we need to incorporate our decision variables, objective function, and constraints. The following is a detailed explanation of the three major functions commonly used in setting up these variables and expressions.<br>
 P.S. There are different ways to set the objective function and constraints in Gurobi. Here, we have introduced the applications of these three functions only. If you wish to gain a deeper understanding, you can visit the [Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html) section within the Gurobi website for further information. For details on other functions, you can click [here](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html).
 
@@ -80,7 +80,7 @@ The default upper limit for variables is infinity, the lower limit is 0, and the
 ### ● Constraint Function
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.addconstr.png" width="700">
 
-### 2.Gurobi attributes
+### 2. Gurobi attributes
 In Gurobi, you can query or modify the content of the created mathematical programming using various attributes. Here are some commonly used attributes:
 <br>P.S. For more attribute queries, you can click [here](https://www.gurobi.com/documentation/7.0/refman/attributes.html).
 
