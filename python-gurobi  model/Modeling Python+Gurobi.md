@@ -28,7 +28,7 @@
 ![Python+Gurobi Modeling Process](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/208243b3-889b-4105-b674-feca5d7d6d38)
 
 ## 2. Modeling Python+Gurobi
-![Python+Gurobi Modeling](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/5279099d-eb3e-4933-b361-798739433ba0)
+![Python+Gurobi Modeling](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/1797c038-7a45-4c7c-a313-c407e0e1b3ca)
 
 ## Import gurobipy
 
