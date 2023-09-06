@@ -10,13 +10,13 @@
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/%E6%9C%80%E4%BD%B3%E5%8C%96%E6%B5%81%E7%A8%8B.png" width="650">
 
 ## (2) Probelm Definition
-● There are three activities, X, Y, and Z, that need to be held on the same day.<br>
+● There are three activities, x, y, and z, that need to be held on the same day.<br>
 ● The total available time for the venue is only four hours.<br>
-● Activity Z has a value that is twice that of activities X and Y.<br>
-● At least one of activities X or Y must be selected.<br>
-● Activity X requires 1 hour.<br>
-● Activity Y requires 2 hours.<br>
-● Activity Z requires 3 hours.<br>
+● Activity z has a value that is twice that of activities x and y.<br>
+● At least one of activities x or y must be selected.<br>
+● Activity x requires 1 hour.<br>
+● Activity y requires 2 hours.<br>
+● Activity z requires 3 hours.<br>
 ● Which combination of activities can maximize the value?<br>
 
 ## (3) Mathematical Programming
