@@ -20,15 +20,15 @@
 ● Which combination of activities can maximize the value?<br>
 
 ## (3) Mathematical Programming
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/%E5%BB%BA%E6%A8%A1%E7%AF%84%E4%BE%8B.png" width="850">
+![Mathematical Programming](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/a5c5546c-ccfe-41cb-b171-276d44166850)
 
 
 ## (4) Python+Gurobi Optimization
 ## 1. Modeling Process
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1%E6%B5%81%E7%A8%8B.png" width="750">
+![Python+Gurobi Modeling Process](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/208243b3-889b-4105-b674-feca5d7d6d38)
 
 ## 2. Modeling Python+Gurobi
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/example.png" width="450">
+![Python+Gurobi Modeling](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/5279099d-eb3e-4933-b361-798739433ba0)
 
 ## Import gurobipy
 
