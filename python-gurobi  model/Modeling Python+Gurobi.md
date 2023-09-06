@@ -90,7 +90,8 @@ m.addConstr(x + y >= 1, "c1")
 **m.setParam('OutputFlag', 0)**
 
 ```python
-m.optimize() # solve
+# Solve
+m.optimize()
 # Display name and value of variables using attributes .varName and .x
 for v in m.getVars():
     print('%s %g' % (v.varName, v.x))
