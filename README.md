@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br>
 ### **內容概述**
 
-此網頁為成功大學資訊系[作業研究課程](http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F7&cono=F732800)
+此網頁為台灣大學資管系[作業研究課程](http://course-query.acad.ncku.edu.tw/crm/course_map/course.php?dept=F7&cono=F732800)
 
 授課教師為[李家岩](http://polab.imis.ncku.edu.tw/Bio.html)老師
 
