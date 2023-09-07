@@ -7,7 +7,7 @@
 [【Return to Homepage】](https://github.com/PO-LAB/Python-Gurobi)
 
 ## (1) Optimization Process
-![Optimization Process](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/0b82f81c-2469-4f38-86f0-1e187c97063d)
+![Optimization Process](https://github.com/PO-LAB/Python-Gurobi-Pulp/assets/50478424/e9649cbc-3fa3-45e0-a8c9-b6a4322e7ad0)
 
 ## (2) Probelm Definition
 ● There are three activities, x, y, and z, that need to be held on the same day.<br>
