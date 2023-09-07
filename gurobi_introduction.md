@@ -23,8 +23,8 @@ Gurobi can solve the following types of mathematical programming problems:
 Gurobi supports various programming languages and modeling languages for development, including:
 
 :arrow_down_small: Programming Languages
-- Object-oriented interfaces：C++, Java, .NET, and Python
-- Matrix-oriented interfaces：C, MATLAB, and R
+- Object-oriented interfaces: C++, Java, .NET, and Python
+- Matrix-oriented interfaces: C, MATLAB, and R
 
 :arrow_down_small: Modeling Languages
 - AMPL, GAMS, AIMMS, and MPL
